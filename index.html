@@ -19,10 +19,17 @@
         margin-top:-24%;
         width:100%;
     }
-    .shadow{
-        box-shadow: 10px;
-        
-    }
+  
+ 
+   .box img{
+    display: block;
+    border-radius:9px;
+   }
+   .box:hover{
+    transform: scale(1.3);
+    z-index:2;
+   }
+
 </style>
     </head>
     <body> 
@@ -40,7 +47,7 @@
         <div class="padding-32 hide-small text-white" id="home">
             <img src="photo1.jpg" width="100%" height="600">
             <div class="textInfo text-center">
-                <h1 style="font-size: 70 ">Aashu Mittal Website</h1>
+                <h1 style="font-size: 70 ">Study Material Website</h1>
                 <p>This is the our website and it is very effective.</p>
                 <button class="btn btn-success"><a class="text-white ml-auto" href="login.html ">Join Now</a></button>
             </div>
@@ -52,9 +59,11 @@
     <div class="text-center pt-4 card-body text-white" style="background-color: black;" id="course">
         <h1 class="text-center">Course</h1>
         <div class="row">
-            <div class=" shadow  col-sm-4 text-dark" style="background-color:aliceblue;">
-                <h3 class="text-bold" >Java Course</h3>
+            <div class="col-sm-4 text-dark" style="background-color:aliceblue;">
+                <h3 class=" text-bold" >Java Course</h3>
+                <div class="box">
                 <img src="java.jpg" width="340" height="200">
+                </div>
                 <h5> Java:My Java Notes</h5>
                 <i class="fa fa-star" style="color: yellow;"></i>
                 <i class="fa fa-star" style="color: yellow;"></i>
@@ -67,7 +76,9 @@
             </div>
             <div class="shadow col-sm-4 text-dark" style="background-color:aliceblue;">
                 <h3 class="text-bold" >Python Course</h3>
-                <img src="python.jpg" width="340" height="200">
+                <div class="box">
+                    <img src="python.jpg" width="340" height="200">
+                    </div>
                 <h5>My Python Notes</h5>
                 <i class="fa fa-star" style="color: yellow;"></i>
                 <i class="fa fa-star" style="color: yellow;"></i>
@@ -79,9 +90,9 @@
             </div>
             <div class="shadow col-sm-4 text-dark" style="background-color:aliceblue;">
                 <h3 class="text-bold" >C++ Course</h3>
-                <div>
-                <img src="c++.jpg" width="340" height="200">
-                </div>
+                <div class="box">
+                    <img src="c++.jpg" width="340" height="200">
+                    </div>
                 <h5>C++:C++ Notes</h5>
                 <i class="fa fa-star" style="color: yellow;"></i>
                 <i class="fa fa-star" style="color: yellow;"></i>
@@ -92,6 +103,7 @@
                 <button class="btn btn-dark"><a class="text-white" href="c++_course.html">Join Now</a></button>
             </div>
         </div>
+    </div>
         </div>
         
         </div>
@@ -116,7 +128,7 @@
     <div class="shadow col-sm-4 text-dark" style="background-color:aliceblue;"><br>
         <img src="person2.jpg" class="rounded-circle" width="100" height="100">
         <h5>Michael Berillo</h5>
-        <p>Really outstanding options for customizing the code, grat design and a big variety of templates and options, also the support page is awesome, they solved a problem within a day.</p>
+        <p>Really outstanding options for customizing  code, grat design and a big variety of templates and options, also the support page is awesome, they solved a problem within a day.</p>
     </div>
     <div class="shadow col-sm-4 text-dark" style="background-color:aliceblue;"><br>
         <img src="person3.jpg" class="rounded-circle" width="100" height="100">
@@ -134,18 +146,17 @@
 </div>
 </div>
 <div class="container-fluid text-center">
-    <h2>SERVICES</h2><br>
-    <h4>What we offer</h4>
+    <h5>What we gain</h5>
     <br>
     <div class="row">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-off"></span>
-        <h4>POWER</h4>
+        <h4>KNOWLEDGE</h4>
 
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-heart"></span>
-        <h4>LOVE</h4>
+        <h4>CONFIDENSE</h4>
     
       </div>
       <div class="col-sm-4">
@@ -167,7 +178,7 @@
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-wrench"></span>
-        <h4>HARD WORK</h4>
+        <h4>EFFECTIVE NOTES</h4>
         
       </div>
     </div>
